@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Optional: Add background color */
+}
+
+.hero img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero .content {
+  text-align: center;
+  color: #ffffff; /* Optional: Add text color */
+}
+
+.hero h1 {
+  color:black;/* Adjust font size as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.hero p {
+  color:black;/* Adjust font size as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.hero .explore-btn {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #bd081c; /* Adjust background color as needed */
+  color: #ffffff; /* Adjust text color as needed */
+  border-radius: 5px; /* Adjust border radius as needed */
+  text-decoration: none; /* Remove underline for links */
+  transition: background-color 0.3s ease; /* Optional: Add smooth transition effect */
+}
+
+.hero .explore-btn:hover {
+  background-color: #8a0b14; /* Adjust hover background color as needed */
+}
